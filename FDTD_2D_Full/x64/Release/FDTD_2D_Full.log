@@ -1,0 +1,443 @@
+﻿Сборка начата 10.04.2018 11:12:29.
+     1>Проект "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\FDTD_2D_Full.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>CudaClean:
+         cmd.exe /C "C:\Users\ask68\AppData\Local\Temp\8\tmp064ebc2ee3c042fab2e73bc5dccf16bd.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\FDTD_cuda.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\FDTD_cuda.cu" -clean
+         
+         D:\_ask68\FDTD_2D_Full\FDTD_2D_Full>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\FDTD_cuda.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\FDTD_cuda.cu" -clean 
+         FDTD_cuda.cu
+       CudaClean:
+         cmd.exe /C "C:\Users\ask68\AppData\Local\Temp\8\tmp4992e38755ea46db9a9ca469cd2d0b96.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\kernel.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\kernel.cu" -clean
+         
+         D:\_ask68\FDTD_2D_Full\FDTD_2D_Full>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\kernel.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\kernel.cu" -clean 
+         kernel.cu
+       CudaClean:
+         cmd.exe /C "C:\Users\ask68\AppData\Local\Temp\8\tmp835589495ef34105b89454c85aafa97d.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\processing.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\processing.cu" -clean
+         
+         D:\_ask68\FDTD_2D_Full\FDTD_2D_Full>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\processing.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\processing.cu" -clean 
+         processing.cu
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\FDTD_cuda.cu 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\kernel.cu 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\processing.cu 
+       CudaBuild:
+         Compiling CUDA source file FDTD_cuda.cu...
+         cmd.exe /C "C:\Users\ask68\AppData\Local\Temp\8\tmpecd5d52df56744838aa361747af88ec9.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\FDTD_cuda.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\FDTD_cuda.cu"
+         
+         D:\_ask68\FDTD_2D_Full\FDTD_2D_Full>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\FDTD_cuda.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\FDTD_cuda.cu" 
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(20): warning : return type of function "main" must be "int"
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(390): warning : variable "freeSpace" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1157): warning : variable "stepen" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2667): warning : variable "rad2" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3009): warning : variable "iMstart" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3009): warning : variable "kMstart" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3010): warning : variable "iMend" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3010): warning : variable "kMend" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3079): warning : variable "kMstart" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3080): warning : variable "kMend" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3219): warning : variable "znam" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3317): warning : variable "K" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4024): warning : variable "S_koef" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4057): warning : variable "Beg_Antena" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4527): warning : variable "delta" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4552): warning : variable "delta" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(20): warning : return type of function "main" must be "int"
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(390): warning : variable "freeSpace" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1157): warning : variable "stepen" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2667): warning : variable "rad2" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3009): warning : variable "iMstart" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3009): warning : variable "kMstart" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3010): warning : variable "iMend" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3010): warning : variable "kMend" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3079): warning : variable "kMstart" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3080): warning : variable "kMend" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3219): warning : variable "znam" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3317): warning : variable "K" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4024): warning : variable "S_koef" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4057): warning : variable "Beg_Antena" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4527): warning : variable "delta" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4552): warning : variable "delta" was declared but never referenced
+         FDTD_cuda.cu
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(45): warning C4800: long: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(62): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(72): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(73): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(92): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(93): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(94): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(100): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(101): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(102): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(103): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(112): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(113): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(114): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(119): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(120): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(121): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(125): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(126): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(127): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(141): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(170): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(171): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(172): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(311): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(312): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(314): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(315): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(317): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(318): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(320): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(321): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(324): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(327): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(330): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(335): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(338): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(342): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(343): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(346): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(356): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(357): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(360): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(364): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(365): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(366): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(367): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(371): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(372): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(373): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(375): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(376): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1171): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1191): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1193): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1196): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1198): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1157): warning C4101: stepen: неиспользованная локальная переменная
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1228): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1230): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1232): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1234): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1244): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1252): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1254): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1256): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1258): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1260): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1267): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1269): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1271): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1273): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1283): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1292): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1294): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1296): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1298): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1300): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1307): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1309): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1311): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1313): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1323): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1331): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1333): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1335): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1337): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1339): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1346): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1348): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1350): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1352): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1362): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1371): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1373): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1375): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1377): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1379): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1386): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1388): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1390): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1392): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1402): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1410): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1412): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1414): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1416): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1418): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1425): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1427): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1429): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1431): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1441): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1449): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1451): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1453): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1455): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1457): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1472): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1476): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1481): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1491): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1495): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1500): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1510): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1514): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1519): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1529): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1533): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1538): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1548): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1552): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1557): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1567): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1571): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1576): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1671): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1699): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1726): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1754): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1808): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1836): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1863): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1891): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1945): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(1973): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2000): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2028): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2087): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2115): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2142): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2170): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2229): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2257): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2284): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2312): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2371): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2399): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2426): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2454): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2468): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(2622): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3122): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3140): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3160): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3178): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3196): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3230): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3231): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3232): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3246): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3247): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3248): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3252): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3267): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3268): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3269): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3273): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3288): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3289): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3290): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3294): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3219): warning C4101: znam: неиспользованная локальная переменная
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3321): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3322): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3328): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3337): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3338): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3347): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3349): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3365): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3369): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3371): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3385): warning C4305: инициализация: усечение из "double" к "float"
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3390): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3398): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3399): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3401): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3402): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3430): warning C4305: инициализация: усечение из "double" к "float"
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3435): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3443): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3444): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3472): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3473): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3509): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3510): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3515): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3516): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3560): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3561): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3565): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3566): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3568): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3578): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(3595): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4024): warning C4101: S_koef: неиспользованная локальная переменная
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4527): warning C4101: delta: неиспользованная локальная переменная
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/FDTD_cuda.cu(4552): warning C4101: delta: неиспользованная локальная переменная
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\ask68\AppData\Local\Temp\8\tmpda0ea41185d64317865f062ad7e567d9.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\kernel.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\kernel.cu"
+         
+         D:\_ask68\FDTD_2D_Full\FDTD_2D_Full>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\kernel.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\kernel.cu" 
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(220): warning : a storage class may not be specified here
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(226): warning : a storage class may not be specified here
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(233): warning : a storage class may not be specified here
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(237): warning : a storage class may not be specified here
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(242): warning : a storage class may not be specified here
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(667): warning : variable "Jm" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(723): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(723): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(723): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(766): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(766): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(766): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(811): warning : variable "EH_i" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(811): warning : variable "EH_j" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(811): warning : variable "EH_k" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(935): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(935): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(935): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1004): warning : variable "coordTemp" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1005): warning : variable "coordPrev" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(972): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(972): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(972): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1626): warning : variable "save_counter" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1627): warning : variable "save_app" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1631): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1631): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1631): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1634): warning : variable "is_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1635): warning : variable "js_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1636): warning : variable "ks_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1638): warning : variable "s_dir" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1938): warning : variable "is_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1939): warning : variable "js_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1940): warning : variable "ks_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1942): warning : variable "s_dir" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3082): warning : variable "hostData" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3218): warning : variable "temp" was set but never used
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(220): warning : a storage class may not be specified here
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(226): warning : a storage class may not be specified here
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(233): warning : a storage class may not be specified here
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(237): warning : a storage class may not be specified here
+     1>d:\_ask68\fdtd_2d_full\fdtd_2d_full\Ext_kernel.cuh(242): warning : a storage class may not be specified here
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(667): warning : variable "Jm" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(723): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(723): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(723): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(766): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(766): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(766): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(811): warning : variable "EH_i" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(811): warning : variable "EH_j" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(811): warning : variable "EH_k" was set but never used
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(935): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(935): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(935): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1004): warning : variable "coordTemp" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1005): warning : variable "coordPrev" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(972): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(972): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(972): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1626): warning : variable "save_counter" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1627): warning : variable "save_app" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1631): warning : variable "EH_i" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1631): warning : variable "EH_j" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1631): warning : variable "EH_k" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1634): warning : variable "is_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1635): warning : variable "js_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1636): warning : variable "ks_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1638): warning : variable "s_dir" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1938): warning : variable "is_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1939): warning : variable "js_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1940): warning : variable "ks_size" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1942): warning : variable "s_dir" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3082): warning : variable "hostData" was declared but never referenced
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3218): warning : variable "temp" was set but never used
+         kernel.cu
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1716): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1727): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1748): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1750): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1760): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1631): warning C4101: EH_j: неиспользованная локальная переменная
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1631): warning C4101: EH_i: неиспользованная локальная переменная
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(1631): warning C4101: EH_k: неиспользованная локальная переменная
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2077): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2089): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2114): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2119): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2134): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2502): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2505): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2508): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2511): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2514): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2517): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2535): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2536): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(2537): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3082): warning C4101: hostData: неиспользованная локальная переменная
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3112): warning C4305: инициализация: усечение из "double" к "float"
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3144): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3175): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3239): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/kernel.cu(3253): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+       CudaBuild:
+         Compiling CUDA source file processing.cu...
+         cmd.exe /C "C:\Users\ask68\AppData\Local\Temp\8\tmp75108ea6821947f0be731f0f43157cb8.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\processing.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\processing.cu"
+         
+         D:\_ask68\FDTD_2D_Full\FDTD_2D_Full>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\processing.cu.obj "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\processing.cu" 
+         processing.cu
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(33): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(37): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(41): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(70): warning C4244: аргумент: преобразование "double" в "const float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(107): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(111): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(115): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(173): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(194): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(227): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(243): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(259): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(273): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:/_ask68/FDTD_2D_Full/FDTD_2D_Full/processing.cu(275): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D WIN64 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt INIlib\ini.c
+         ini.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D WIN64 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt INIlib\INIReader.cpp
+         INIReader.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_ask68\FDTD_2D_Full\x64\Release\FDTD_2D_Full.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\_ask68\FDTD_2D_Full\x64\Release\FDTD_2D_Full.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_ask68\FDTD_2D_Full\x64\Release\FDTD_2D_Full.lib" /MACHINE:X64 x64\Release\FDTD_cuda.cu.obj
+         x64\Release\kernel.cu.obj
+         x64\Release\processing.cu.obj
+         x64\Release\ini.obj
+         x64\Release\INIReader.obj
+         Создание кода
+         Создание кода завершено
+         FDTD_2D_Full.vcxproj -> D:\_ask68\FDTD_2D_Full\x64\Release\FDTD_2D_Full.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "D:\_ask68\FDTD_2D_Full\x64\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "D:\_ask68\FDTD_2D_Full\x64\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "D:\_ask68\FDTD_2D_Full\x64\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+         Скопировано файлов:         2.
+     1>Сборка проекта "D:\_ask68\FDTD_2D_Full\FDTD_2D_Full\FDTD_2D_Full.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:51.65
